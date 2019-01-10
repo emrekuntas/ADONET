@@ -27,7 +27,7 @@ namespace Select
         private void Form1_Load(object sender, EventArgs e)
         {
             con = new SqlConnection(ConfigurationManager.ConnectionStrings["Northwind"].ConnectionString);
-        }//612
+        }//sql
 
         private void btnShow_Click(object sender, EventArgs e)
         {////
